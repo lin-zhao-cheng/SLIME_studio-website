@@ -367,43 +367,6 @@ aside{
   
     position: absolute;
 } */
-/* 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 768px) { 
-    .top-logo{
-        width: 267px;
-        height: 93px;
-        margin-top: 170px;
-        position: absolute;
-        z-index: 2;
-    }
-    .box1{
-        width: 138px;
-        height: 40.69px;
-
-    }
-
- }
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { 
-    .top-logo{
-        width: 422px;
-        height: 147px;
-        margin-top: 170px;
-        position: absolute;
-        z-index: 2;
-    }
-    .box1{
-        width: 138px;
-        height: 40.69px;
-
-    }
-
- } */
 
 /* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... } */
@@ -422,4 +385,41 @@ aside{
         height: 40.69px;
 
     }
+ }
+ /* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    .top-logo{
+        width: 422px;
+        height: 147px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 2;
+    }
+    .box1{
+        width: 138px;
+        height: 40.69px;
+
+    }
+
+ } */
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+    .top-logo{
+        width: 267px;
+        height: 93px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 2;
+    }
+    .box1{
+        width: 138px;
+        height: 40.69px;
+
+    }
+
  }

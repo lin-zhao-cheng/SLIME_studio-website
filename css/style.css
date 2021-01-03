@@ -25,9 +25,11 @@ html{
 } */
 .container-fuild{
     background-color: #7CAED8;
+    overflow-x:hidden;
     /* margin: 0; */
 
 }
+
 .logo-login{
     /* background-color: #7CAED8; */
     height: 100vh;
@@ -39,7 +41,8 @@ html{
     background-image:url(../img/top\ 2d2.png);
     background-position:  center 0; 
     background-repeat: no-repeat;  
-    
+    /* position: absolute;
+    z-index: 1; */
     /* background-attachment: fixed;  */
     background-size: cover; 
      -webkit-background-size: cover;  
@@ -55,14 +58,14 @@ html{
     z-index: 0;
 } */
 
-
 .top-logo{
     width: 422px;
     height: 147px;
-    margin-top: 10%;
+    margin-top: 170px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
+
 .box1{
     width: 138px;
     height: 40.69px;
@@ -72,8 +75,8 @@ html{
     align-items: center;
     text-align: center;
     position: absolute;
-    z-index: 1;
-    margin-top: 20%;
+    z-index: 2;
+    margin-top: 330px;
     font-size: 2.4em;
 }
 .box1 h2{
@@ -147,12 +150,13 @@ html{
      -o-background-size: cover;  
      -moz-background-size: cover;  
      -ms-background-size: cover;
-    
 }
 article{
-    height: 120vh;
+    height: 150vh;
     background-color: white;
     margin-top: -10px;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .new-title{
@@ -166,7 +170,7 @@ article{
     margin: 0;
 }
 
-.new-img2{
+.new-deco2{
     width: 424px;
     height: 150px;
     margin-top: 160px;
@@ -206,3 +210,216 @@ article{
     text-align: center;
     font-size: 1.8em;
 }
+
+/* ------------------------------ */
+.new-deco3{
+    width: 440px;
+    height: 150px;
+    margin-top: 180px;
+    position: absolute;
+    right: 0;
+    background-image:url(../img/decoration//blue\ deco\ 2.png);
+    /* background-position: right; */
+    background-size: cover; 
+        -webkit-background-size: cover;  
+        -o-background-size: cover;  
+        -moz-background-size: cover;  
+        -ms-background-size: cover;
+}
+
+.new-box2{
+    width: 834px;
+    height: 270px;  
+    display: flex;
+    flex-direction: row-reverse;
+    background: #C4E2FE;
+    /* box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.7); */
+    border-radius: 55px;
+    padding: 0;
+    margin-top: 8em;
+}
+
+.new-img2{
+    width: 404px;
+    height: 270px;
+    border-radius: 0px 55px 55px 0px;
+}
+
+.yo{
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+/* .deco-a{
+    position: absolute;
+    height: 516px;
+} */
+.new-deco4{
+    height: 516px;
+    width: 100%;
+    
+    background-image:url(../img/decoration/white\ bottom.png);
+    /* background-position: right; */
+    background-size: cover; 
+        -webkit-background-size: cover;  
+        -o-background-size: cover;  
+        -moz-background-size: cover;  
+        -ms-background-size: cover;
+    position: absolute;
+    top: -2px;
+    z-index: 2;
+
+    
+
+}
+aside{
+    position: relative;
+    background-color:  #395E7D;
+    height: 560px;
+}
+
+/* .aa{
+    margin-top: 100px;
+
+} */
+.aside-bbox{
+   
+    height: 264px;
+    background: #E3E3E3;
+    border-radius: 132px;
+    margin: 100px auto 0 auto;
+}
+.aside-sbox{
+    height: 70px;
+    background: #FFA800;
+    border-radius: 41px;
+    margin: 50px auto 0 auto;
+    top: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-sbox h1{
+    font-size: 30px;
+}
+
+/* ----------------------------------------- */
+.foot-social{
+    width: 100%;
+    height: 224px;
+    background: #FFFFFF;
+
+}
+.icon-group{
+    margin-top: 50px;
+
+    
+    
+}
+.icon{
+    width: 56px;
+    height: 56px;
+    margin-left: 15px;
+}
+
+.social-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: 35px;
+}
+
+
+
+
+
+/* --------------------------------------------- */
+.foot-bottom{
+    width: 100%;
+    height: 100px;
+    background: #1E405D;
+    /* position: relative; */
+
+}
+
+.bot-logo{
+    width: 177px;
+    height: 61px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 26px;
+   
+}
+
+/* 
+.bottom-text{
+    color: white;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
+  
+    position: absolute;
+} */
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+    .top-logo{
+        width: 267px;
+        height: 93px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 2;
+    }
+    .box1{
+        width: 138px;
+        height: 40.69px;
+
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    .top-logo{
+        width: 422px;
+        height: 147px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 2;
+    }
+    .box1{
+        width: 138px;
+        height: 40.69px;
+
+    }
+
+ } */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    .top-logo{
+        width: 422px;
+        height: 147px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 2;
+    }
+    .box1{
+        width: 138px;
+        height: 40.69px;
+
+    }
+ }

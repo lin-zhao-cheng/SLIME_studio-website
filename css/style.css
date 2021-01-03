@@ -7,9 +7,7 @@ html{
 /* *,*::before,*:after{
     box-sizing: inherit;
 } */
-/* html{ 
-  
-} */
+/* --------視差滾動------- */
 /* .top1{
     position: absolute;
     top:0;
@@ -23,6 +21,8 @@ html{
     z-index: 1;
     width: 100%;
 } */
+/* --------視差滾動------- */
+/* --------以下開始------- */
 .container-fuild{
     background-color: #7CAED8;
     overflow:hidden;
@@ -36,8 +36,8 @@ html{
     width: 100%;
 }
 .bg{
-    height: 120vh;
-    
+    height: 130vh;
+    max-width: 100%;
     background-image:url(../img/top\ 2d2.png);
     background-position:  center 0; 
     background-repeat: no-repeat;  
@@ -51,6 +51,7 @@ html{
      -ms-background-size: cover;
     
 }
+
 /* .top1{
     width: 100%;
     height: 100vh;
@@ -76,16 +77,17 @@ html{
     text-align: center;
     position: absolute;
     z-index: 2;
-    margin-top: 330px;
-    font-size: 2.4em;
+    margin-top: 320px;
+    
 }
 .box1 h2{
     margin-left: auto;
     margin-right: auto;
+    font-size: 2.2em;
 }
 /* ----------------------------------------------------------------------------------------------- */
 .logo-rec{
-    height: 80vh;
+    /* height: 80vh; */
     position: relative;
 }
 .title-rec{
@@ -98,11 +100,14 @@ html{
     
 }
 
+
 .line{
     width: 12px;
-    height: 472px;  
+    height: 100%;  
     background-color: white;
-    margin: auto;
+
+    position: absolute;
+    
     /* border: solid 1px black; */
 }
 
@@ -113,23 +118,36 @@ html{
 
 } */
 .text-rec{
-    margin-top: 20%;
-    font-size: 3em;
+    /* margin-top: 20%; */
+    
     margin-top: 0;
+    margin-bottom: 10%;
     /* position: absolute;
     top: 0; */
     /* display: flex;
     flex-direction: row; */
 }
+.rec-box-img{
+    margin: auto;
+
+}
+.rec-box-word{
+    margin: auto;
+
+}
+.rec-p-tit{
+    font-size: 3em;
+    font-weight: bolder;
+}
 .rec-p{
-   
-    width: 388px;
-    height: 220px;
+    font-size: 2.6em;
+    width: 100%;
+    height: 60%;
 }
 
 .rec-img01{
     
-    width: 90%;
+    width: 100%;
     height: 60%;
     border-radius: 59px;
     
@@ -160,7 +178,7 @@ article{
 }
 
 .new-title{
-    font-size: 4em;
+    font-size: 3.6em;
     color:  #276BA4;
     display: flex;
     align-items: center;
@@ -367,48 +385,82 @@ aside{
   
     position: absolute;
 } */
+/* -------------圖片調整------------ */
 
-/* // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... } */
+@media (max-width: 1200px){
+    .rec-img01{
+    width: 100%;
+    height: 50%;
+    }
+    .rec-p{
+        font-size: 2em;
+        height: 50%;
+    }
+    .rec-p-tit{
+        font-size: 2.5em;
+    }
+    .new-title{
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) { 
+        font-size: 3.2em;
+    }
+    .new-img1-text{
+        font-size: 1.2em;
+    }
+    .new-box1{
+        /* width: 834px;
+        height: 270px;  */
+        height: 200px;
+  
+    }
+    /* .new-deco2-box{
+        width: 390px;
+        height: 130px;
+    } */
+
+}
+
+/* ---------平板---------- */
+@media (max-width: 768px) { 
     .top-logo{
-        width: 422px;
-        height: 147px;
+        width: 313px;
+        height: 109px;
         margin-top: 170px;
         position: absolute;
         z-index: 2;
     }
     .box1{
-        width: 138px;
-        height: 40.69px;
-
+        width: 185px;
+        height: 55px;
+        margin-top: 300px;
+        
+    }
+    .box1 h2{
+        font-size: 2.8em;
+    }
+    .title-rec{
+        font-size: 3em;
+    }
+    .rec-img01{
+        width: 100%;
+        height: 40%;
+        }
+    .rec-p{
+        font-size: 1.6em;
+        height: 40;
+    }
+    .rec-p-tit{
+        font-size: 2.2em;
+    }
+    .new-title{
+        font-size: 2.6em;
     }
  }
- /* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { 
-    .top-logo{
-        width: 422px;
-        height: 147px;
-        margin-top: 170px;
-        position: absolute;
-        z-index: 2;
+
+/* ---------手機---------- */
+@media (max-width: 576px) { 
+    .d-none{
+        visibility:hidden;
     }
-    .box1{
-        width: 138px;
-        height: 40.69px;
-
-    }
-
- } */
-
-/*
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 768px) { 
     .top-logo{
         width: 267px;
         height: 93px;
@@ -417,9 +469,43 @@ aside{
         z-index: 2;
     }
     .box1{
-        width: 138px;
-        height: 40.69px;
+        width: 270px;
+        height: 75px;
+        margin-top: 290px;
+        
+    }
+    .box1 h2{
+        font-size: 4em;
+    }
+    .title-rec{
+        font-size: 2.8em;
+    }
+    .rec-img01{
+        width: 70%;
+        height: 105%;
+        margin-right: 15%;
+        margin-left: 15%;
+        border-radius: 185px 185px 59px 59px;
 
+    }
+    .rec-p{
+        font-size: 2.2em;
+    }
+    .rec-p-tit{
+        font-size: 2.5em;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #395E7D;
+    }
+
+    .new-title{
+        font-size: 2em;
+    }
+    .new-img1-text{
+        
     }
 
  }

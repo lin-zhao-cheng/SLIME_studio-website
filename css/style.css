@@ -25,7 +25,7 @@ html{
 } */
 .container-fuild{
     background-color: #7CAED8;
-    overflow-x:hidden;
+    overflow:hidden;
     /* margin: 0; */
 
 }

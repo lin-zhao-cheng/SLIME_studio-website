@@ -310,6 +310,12 @@ aside{
     margin-top: 100px;
 
 } */
+.game-bb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .game-boy{
     width: 112px;
     height: 169px;
@@ -371,6 +377,10 @@ aside{
 }
 .icon-group{
     margin-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 .icon{
@@ -688,7 +698,7 @@ aside{
         margin-left: 50px;
     }
     .bbox-text h2{
-        font-size: 2.4em;
+        font-size: 2em;
         color: crimson;
         margin-left: 30px;
     }

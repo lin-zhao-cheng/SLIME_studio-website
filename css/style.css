@@ -477,12 +477,6 @@ aside{
         height: 88px;
         
     }
-    .icon{
-        width: 50px;
-        height: 50px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
     .bbox-text h2{
         font-size: 3em;
         color: crimson;
@@ -492,6 +486,16 @@ aside{
         font-size: 1.6em;
         margin-top: 3%;
     }
+
+/* ---------footer------- */
+    .icon{
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+/* ---------footer------- */
+
 
 }
 
@@ -583,6 +587,20 @@ aside{
         width: 150px;
         height: 60px;
     }
+    .bbox-text h2{
+        font-size: 2.6em;
+        color: crimson;
+        margin-left: 30px;
+    }
+    .bbox-text p{
+        font-size: 1.em;
+        margin-top: 3%;
+    }
+    .game-boy{
+        width: 92px;
+        height: 139px;
+    }
+    /* -----------footer-------- */
     .icon{
         width: 50px;
         height: 50px;
@@ -600,19 +618,8 @@ aside{
         margin-top: 26px;
        
     }
-    .bbox-text h2{
-        font-size: 2.6em;
-        color: crimson;
-        margin-left: 30px;
-    }
-    .bbox-text p{
-        font-size: 1.em;
-        margin-top: 3%;
-    }
-    .game-boy{
-        width: 92px;
-        height: 139px;
-    }
+    /* ------------footer------------ */
+
 
  }
 
@@ -679,6 +686,20 @@ aside{
         width: 90%;
         height: 150px;
     }
+    .bbox-text h2{
+        font-size: 2em;
+        color: crimson;
+        margin-left: 30px;
+    }
+    .bbox-text p{
+        font-size: 1.2em;
+        margin-top: 3%;
+    }
+    .game-boy{
+        width: 66px;
+    height: 100px;
+    }
+    /* -----------footer------- */
     .icon{
         width: 60px;
         height: 60px;
@@ -697,19 +718,8 @@ aside{
         margin-right: 50px;
         margin-left: 50px;
     }
-    .bbox-text h2{
-        font-size: 2em;
-        color: crimson;
-        margin-left: 30px;
-    }
-    .bbox-text p{
-        font-size: 1.2em;
-        margin-top: 3%;
-    }
-    .game-boy{
-        width: 66px;
-    height: 100px;
-    }
+    /* ------------footer---------- */
+
 
 
 

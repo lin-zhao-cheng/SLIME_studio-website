@@ -1,0 +1,413 @@
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-color:#DAE4F4;
+}
+/* *,*::before,*:after{
+    box-sizing: inherit;
+} */
+.container-fuild{
+    background-color: #DAE4F4;
+    overflow:hidden;
+    
+}
+article{
+
+}
+.game-bg{
+    position: relative;
+    width:90%;
+    /* height: 1804px; */
+    margin-top: 160px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin-bottom: 60px;
+    
+    background: #FFFFFF;
+    border-radius: 111px;
+    /* background-image:url(../img/top\ 2d2.png);
+    background-position:  center 0; 
+    background-repeat: no-repeat;  
+
+    background-size: cover; 
+     -webkit-background-size: cover;  
+     -o-background-size: cover;  
+     -moz-background-size: cover;  
+     -ms-background-size: cover; */
+}
+.deco-top1{
+    position: absolute;
+    width: 30%;
+    height: 170px;
+    left: 60%;
+    top: -20px;
+
+}
+/* -------------------------------- */
+.game-title{
+    margin: 0;
+}
+.game-title-h1{
+    font-size: 8em;
+    
+    margin: 90px auto 10px auto;
+
+}
+.game-title-h2{
+    font-size: 6em;
+    margin-bottom: 50px;
+
+}
+.game-r{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+/* ---------------------------------- */
+.game-img-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.game-img-box-img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+
+}
+.game-img{
+    width: 298px;
+    height: 204px;
+    border-radius: 185px 185px 59px 59px;
+    
+}
+/* -------------------------------- */
+.game-img-Ctitle{
+    font-size: 3.6em;
+    color: #174661;
+    font-weight: bold;
+    margin: 0;
+
+}
+.game-img-Etitle{
+    color: #174661;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4em;
+
+}
+.game-img-class{
+    font-size: 2.4em;
+    font-weight: bold;
+
+}
+.game-img-year{
+    font-size: 1.8em;
+    font-weight: normal;
+
+}
+.game-img-box-text{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    margin-top: 20px;
+
+}
+.game-text-bot{
+    margin-top: 40px;
+}
+
+
+
+
+/* ---------------deco02----------- */
+.deco-bot2{
+    width: 277px;
+    height: 116px;
+    position: absolute;
+    top: -10px;
+}
+/* ------------------footer---------- */
+
+.foot-social{
+    width: 100%;
+    
+    background: #FFFFFF;
+    position: relative;
+
+}
+.icon-group{
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon{
+    width: 56px;
+    height: 56px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+/* 
+.social-call{
+    display:none;
+} */
+
+
+
+/* --------------------------------------------- */
+.foot-bottom{
+    width: 100%;
+    height: 100px;
+    background: #1E405D;
+    /* position: relative; */
+
+}
+
+.bot-logo{
+    width: 177px;
+    height: 61px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 26px;
+   
+}
+
+
+/* -------------圖片調整------------ */
+
+@media (max-width: 1200px){
+    .deco-top1{
+        
+        width: 30%;
+        height: 120px;
+        left: 55%;
+        top: -10px;
+    
+    }
+    .deco-bot2{
+        width: 220px;
+        height: 92.13px;
+    }
+    .game-title-h1{
+        font-size: 6em;
+    }
+    .game-title-h2{
+        font-size: 4em;
+    }
+    .game-r{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .game-img{
+        width: 221px;
+        height: 151px;
+        border-radius: 185px 185px 59px 59px;
+        
+    }
+    .game-img-Ctitle{
+        font-size: 3em;
+    }
+    .game-img-Etitle{
+        font-size: 2em;
+    }
+    .game-img-class{
+        font-size: 2em;
+    }
+    .game-img-year{
+        font-size: 1.3em;
+    }
+
+/* ---------footer------- */
+    .icon{
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+/* ---------footer------- */
+
+}
+
+
+
+/* ---------平板(因為桌機設計先所以配合col-改成767px---------- */
+@media (max-width: 767px) { 
+    .deco-top1{
+        
+        width: 100%;
+        height: 100px;
+        left: 45%;
+        top: -10px;
+    
+    }
+    .deco-bot2{
+        width: 116px;
+        height: 48.58px;
+        top: -5px;
+    }
+
+    .game-title-h1{
+        font-size: 4em;
+    }
+    .game-title-h2{
+        font-size: 2.6em;
+    }
+    .game-r{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .game-img-box-img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    
+    }
+    .game-img{
+        width: 221px;
+        height: 151px;
+
+        
+    }
+    .game-img-Ctitle{
+        font-size: 3em;
+    }
+    .game-img-Etitle{
+        font-size: 2em;
+    }
+    .game-img-class{
+        font-size: 2em;
+    }
+    .game-img-year{
+        font-size: 1.3em;
+        /* display: none; */
+    }
+    .game-img-box{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .game-text-bot{
+        margin-top: 30px;
+    }
+
+
+
+    /* -----------footer-------- */
+    .icon{
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .social-contact{
+        font-size: 1.4em;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .bot-logo{
+        width: 138px;
+        height: 48px;
+        margin-top: 26px;
+       
+    }
+    /* ------------footer------------ */    
+}
+
+/* ---------手機---------- */
+@media (max-width: 576px) { 
+    .deco-top1{
+        
+        width: 100%;
+        height: 100px;
+        left: 25%;
+    }
+    .deco-bot2{
+        display: none;
+
+    }
+
+    .game-title-h1{
+        font-size: 3em;
+        
+        margin: 100px auto 10px auto;
+    
+    }
+    .game-title-h2{
+        font-size: 2em;
+        margin-bottom: 40px;
+    
+    }
+    .game-r{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .game-img{
+        width: 153px;
+        height: 105px;
+        
+
+        
+    }
+    .game-img-Ctitle{
+        font-size: 2em;
+    }
+    .game-img-Etitle{
+        font-size: 1.2em;
+    }
+    .game-img-class{
+        font-size: 1.2em;
+    }
+    .game-img-year{
+        font-size: 1em;
+        display: none;
+    }
+    .game-img-box{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .game-text-bot{
+        margin-top: 10px;
+    }
+
+
+    /* ----------footer--- */
+    .icon{
+        width: 60px;
+        height: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .social-contact{
+        font-size: 0.5em;
+
+    }
+    .social-contact h1{
+        display: none;
+    }
+    .icon{
+
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    /* ----------footer--- */
+
+
+
+}

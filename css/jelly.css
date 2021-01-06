@@ -9,7 +9,7 @@ html{
 /* -------------------article----------------- */
 article{
     position: relative;
-    height: 1043px;
+   padding-bottom: 300px;
     background-color:#DAE4F4;
 }
 /* ---------deco------------------ */
@@ -32,7 +32,7 @@ article{
 .box-all{
     /* position: absolute;
     top: 220px; */
-    padding-top: 280px;
+    padding-top: 200px;
     /* display: flex;
     flex-direction: row; */
 
@@ -154,6 +154,28 @@ article{
     display: none;
 }
 
+/* -----icon 變化--------- */
+
+.IC{
+    
+}
+.IC :hover{
+    transform: scale(1.2);
+
+}
+.IC :active{
+    transform: scale(1);
+
+}
+.CONT{
+    color: #000;
+    
+}
+.social-contact h1{
+    font-weight: bold;
+}
+
+
 /* ------------------footer---------- */
 
 .foot-social{
@@ -220,6 +242,10 @@ article{
 /* -------------圖片調整------------ */
 
 @media (max-width: 1200px){
+    article{
+        padding-bottom: 250px;
+
+    }
     .deco-left{
         position: absolute;
         width: 172.84px;
@@ -245,7 +271,7 @@ article{
         border-radius: 69px;
     }
     .box-all{
-        padding-top: 230px;
+        padding-top: 170px;
     }
     .title-deco{
         width: 340px;
@@ -315,6 +341,10 @@ article{
 
 /* ---------平板(因為桌機設計先所以配合col-改成767px---------- */
 @media (max-width: 767px) { 
+    article{
+        padding-bottom: 200px;
+
+    }
     .deco-left{
         width: 128.4px;
         height: 624px;
@@ -338,7 +368,7 @@ article{
         border-radius: 49px;
     }
     .box-all{
-        padding-top: 200px;
+        padding-top: 150px;
     }
     .title-deco{
         width: 400px;
@@ -418,6 +448,10 @@ article{
 
 /* ---------手機----576px------ */
 @media (max-width: 576px) { 
+    article{
+        padding-bottom: 150px;
+
+    }
     .deco-left{
         width: 79.01px;
         height: 384px;
@@ -453,7 +487,7 @@ article{
         border-radius: 999px;
     }
     .box-all{
-        padding-top: 150px;
+        padding-top: 100px;
     }
     .title-C{
         position: static;

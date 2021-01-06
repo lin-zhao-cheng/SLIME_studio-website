@@ -228,6 +228,17 @@ height: 82px;
     .choose{
         display: none;
     }
+    .cga{
+        display: none;
+    }
+    .kk{
+        background: rgba(45, 59, 80, 0.5);
+        margin: 0;
+        
+    }
+    #nw03{
+        color: rgb(255, 255, 255);
+    }
 
     /* ---------------------------------------- */
 

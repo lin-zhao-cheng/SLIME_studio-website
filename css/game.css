@@ -405,6 +405,14 @@ article{
         .cga{
             display: none;
         }
+        .kk{
+            background: rgba(45, 59, 80, 0.5);
+            margin: 0;
+            
+        }
+        #nw01{
+            color: rgb(255, 255, 255);
+        }
         /* -------------------------------------------- */
 
     .deco-top1{

@@ -286,6 +286,9 @@ height: 82px;
 
 /* ---------手機---------- */
 @media (max-width: 576px) { 
+    article{
+        height: 80vh;
+    }
 
     .fixslime{
         width: 155px;

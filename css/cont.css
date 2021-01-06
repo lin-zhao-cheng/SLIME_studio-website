@@ -223,7 +223,15 @@ height: 82px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+    .kk{
+        background: rgba(45, 59, 80, 0.5);
+        margin: 0;
+        
+    }
+
+    #nw03{
+        color: rgb(255, 255, 255);
+    }
 
     .choose{
         display: none;
@@ -231,14 +239,7 @@ height: 82px;
     .cga{
         display: none;
     }
-    .kk{
-        background: rgba(45, 59, 80, 0.5);
-        margin: 0;
-        
-    }
-    #nw03{
-        color: rgb(255, 255, 255);
-    }
+
 
     /* ---------------------------------------- */
 
@@ -271,6 +272,9 @@ height: 82px;
 
 /* ---------手機---------- */
 @media (max-width: 576px) { 
+    article{
+        height: 80vh;
+    }
 
 
     /* -----------footer------- */

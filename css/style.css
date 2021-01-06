@@ -1,6 +1,7 @@
 html{
     font-size: 62.5%;
-    font-family: sans-serif;
+    
+    font-family: 'Noto Sans TC', sans-serif;
     /* width: 100%;
     background-color: #7CAED8; */
 }
@@ -267,6 +268,8 @@ text-align: center;
 } */
 .rec-p{
     font-size: 2.6em;
+    text-indent: 1.9em;
+    line-height: 1.7em;
     width: 100%;
     height: 60%;
 }
@@ -354,12 +357,15 @@ article{
     align-items: center;
     text-align: center;
     font-size: 2em;
+    text-indent: 1.2em;
+    
     /* margin-left: 10px;
     margin-right: 10px; */
 }
 .new-img1-text p{
     margin-left: 15px;
     margin-right: 15px;
+    line-height: 1.5em;
 }
 
 /* ------------------------------ */
@@ -409,7 +415,7 @@ article{
 .new-deco4{
     /* height: 516px;
     width: 100%; */
-    height: 90%;
+    height: 75%;
     width: 100%;
     
     background-image:url(../img/decoration/white\ bottom.png);
@@ -454,7 +460,7 @@ aside{
     border-radius: 132px;
     /* position: absolute; */
     
-    margin: 100px auto 0 auto;
+    margin: 230px auto 0 auto;
     /* background-image: url(../img/background/p4.jpg);
     background-size: cover; 
     -webkit-background-size: cover;  
@@ -471,10 +477,13 @@ aside{
 .bbox-text h2{
     font-size: 4em;
     color: crimson;
+    font-weight: bold;
     /* margin-left: 30px; */
 }
 .bbox-text p{
     font-size: 2em;
+    text-indent: 1.2em;
+    
     margin-top: 3%;
 }
 .aside-sbox{
@@ -761,6 +770,7 @@ aside{
         width: 85%;
    
         height: 200px;
+        margin-top: 130px;
         
 
     }
@@ -866,6 +876,7 @@ aside{
     .aside-bbox{
         width: 90%;
         height: 150px;
+        margin-top: 100px;
     }
     .bbox-text h2{
         font-size: 2em;

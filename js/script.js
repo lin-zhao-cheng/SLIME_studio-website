@@ -21,7 +21,7 @@ $(function(){
         $('.gt').removeClass('animate__animated animate__bounceInUp');
         $(this).css('box-shadow', 'none');
     });
-/////////////////////// 
+///////////nav以下//////////// 
     $('.lk01').mouseenter (function(){
         $('#ca').addClass('choose');
         $('#nw01').css('font-weight','bold');
